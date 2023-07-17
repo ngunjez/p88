@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 536px;
+  background-color: #f6f6f6;
+}
+.frame {
+  position: absolute;
+  width: 1314.52px;
+  height: 263px;
+  top: 88px;
+  left: 302.74px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.topRec {
+  position: absolute;
+  width: 389px;
+  height: 22px;
+  /* top:88px; */
+  background-color: #21213d;
+  border-radius: 10px 10px 0 0;
+}
+.card1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 389px;
+  height: 263px;
+  border-radius: 10px;
+  border: 0.5px solid #d3d3d3;
+  background-color: #fff;
+  text-align: center;
+  transition: height 0.3s ease;
+  transform-origin: top;
+}
+.card1:hover {
+  height: 320px;
+  border-radius: 10px;
+  border: 0.5px solid #e88e2e;
+  background: #fff;
+}
+.card1 p {
+  display: none;
+}
+.card1:hover p {
+  position: relative;
+  width: 283px;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  left:15%;
+  color: #555454;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.card1 h1 {
+  font-size: 30px;
+  color: #21213d;
+  margin-top: 10px;
+}
+.card1:hover h1{
+    color: #e88e2e;
+}
+.Line1 {
+  position: absolute;
+  width: 105%;
+  height: 1px;
+  left: 50%;
+  background-color: #d0cfd2;
+  top: 140px;
+  transform: translateX(-50%);
+}
+.cardImage {
+  margin-top: 48px;
+}

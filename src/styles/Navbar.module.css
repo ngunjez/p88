@@ -1,0 +1,78 @@
+.Nav {
+  position: fixed;
+  width: 100vw;
+  height: 94px;
+  align-items: center;
+  z-index: 10;
+  justify-content: center;
+
+  /* background: rgba(6, 6, 73, 0.03); */
+  backdrop-filter: blur(6.5px);
+  background-color: #060649;
+}
+.Nav_frame {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  top: 22px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #060649;
+  right: 13%;
+}
+.Nav_logo {
+  position: absolute;
+  width: 234px;
+  height: 26px;
+  top: 30px;
+  left: 240px;
+}
+.Nav_links {
+  display: flex;
+  width: 480px;
+  height: 50px;
+  align-items: center;
+  flex-direction: row;
+  gap: 53px;
+  justify-content: space-between;
+  padding: 0px;
+  color: white;
+}
+.text {
+  width: 56px;
+  height: 12.34px;
+  font-family: Red Hat Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  width: 157px;
+  height: 50px;
+  /* justify-content: centre; */
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 53px;
+  background: #ff9800;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
