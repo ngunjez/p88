@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 920px;
+  background-color: #000;
+}
+.text_At {
+  position: absolute;
+  width: 695.44px;
+  height: 240px;
+  top: 220px;
+  left: 265.17px;
+  color: #fff;
+  font-family: Red Hat Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 125% */
+}
+.frame{
+    position: relative;
+    width:574.41px;
+    height:50.89px;
+    top: 497.8px;
+    left:267px;
+    gap:46px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    padding: 0px;
+    color:#CCCCCC;
+}
+.Line{
+    position: absolute;
+    width:589px;
+    height:4px;
+    top:604px;
+    left:266.54px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.gap{
+    width: 54.687px;
+    height: 100%;
+}
+.Line1{
+    width:590px;
+    height:4px;
+    background-color:#E88E2E ;
+}
+.Anim{
+    display:flex;
+    animation: moveGrids 8s infinite linear;
+}
