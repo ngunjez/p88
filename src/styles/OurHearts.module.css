@@ -17,41 +17,113 @@
   font-weight: 500;
   line-height: 60px; /* 125% */
 }
-.frame{
-    position: relative;
-    width:574.41px;
-    height:50.89px;
-    top: 497.8px;
-    left:267px;
-    gap:46px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    /* justify-content: space-between; */
-    padding: 0px;
-    color:#CCCCCC;
+.frame {
+  position: relative;
+  width: 574.41px;
+  height: 50.89px;
+  top: 497.8px;
+  left: 267px;
+  gap: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  /* padding: 10px; */
+  color: #cccccc;
 }
-.Line{
+.Line {
+  position: absolute;
+  width: 589px;
+  height: 4px;
+  top: 604px;
+  left: 266.54px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.gap {
+  width: 54.687px;
+  height: 100%;
+}
+.Line1 {
+  width: 590px;
+  height: 4px;
+  background-color: #e88e2e;
+}
+.Anim {
+  display: flex;
+  animation: moveGrids 8s infinite linear;
+}
+@keyframes moveGrids {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(150px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX (0);
+  }
+}
+.box {
+  --b: 1px; /* thickness of the border */
+  --c: #cccccc; /* color of the border */
+  --w: 12.05px; /* width of border */
+
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg, var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background: conic-gradient(
+        from 90deg at top var(--b) left var(--b),
+        var(--_g)
+      )
+      0 0 / var(--_p),
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 /
+      var(--_p),
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% /
+      var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g))
+      100% 100% / var(--_p);
+  width: auto;
+  height: 40px;
+  display: flex;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+  font-family: Red Hat Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 181.818% */
+  padding: 20px;
+}
+.text_We {
+  position: absolute;
+  width: 654.33px;
+  height: 112.47px;
+  top: 639.5px;
+  left: 267.46px;
+  color: #ccc;
+  font-family: Red Hat Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 172.727% */
+}
+.H_image{
     position: absolute;
-    width:589px;
-    height:4px;
-    top:604px;
-    left:266.54px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden;
-}
-.gap{
-    width: 54.687px;
-    height: 100%;
-}
-.Line1{
-    width:590px;
-    height:4px;
-    background-color:#E88E2E ;
-}
-.Anim{
-    display:flex;
-    animation: moveGrids 8s infinite linear;
+    width:1192.56px;
+    height:795.04px;
+    top:62.48;
+    left:776.91px;
 }
