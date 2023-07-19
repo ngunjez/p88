@@ -3,6 +3,8 @@ import React from "react";
 import Header from '@/components/Header';
 import Body from "@/components/Body";
 import OurHearts from "@/components/OurHearts";
+import Numbers from "@/components/Numbers";
+import Mission from "@/components/Mission";
 
 const Home = () => {
   return (
@@ -11,8 +13,8 @@ const Home = () => {
       <Header />
       <Body />
       <OurHearts />
-      {/* <Numbers />
-      <Mission /> */}
+      <Numbers />
+      <Mission />
       </Layout>
     </div>
   )

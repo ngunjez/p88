@@ -1,0 +1,79 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 382px;
+  background-color: #21213d;
+}
+.B_frame {
+  position: absolute;
+  width: 2049.306px;
+  height: 138.22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 107.387px;
+  background-color: #21213D;
+  top: 131px;
+  overflow: hidden;
+}
+.grid{
+  display: flex;
+  width:299.951px;
+  height:138.22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:13.959px;
+  flex-shrink: 0;
+  animation: moveGrids 7s infinite linear;
+}
+@keyframes moveGrids {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-299.951px);
+  }
+  50% {
+    transform: translateX(-600px);
+  }
+  75% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(-600px);
+  }
+
+  100% {
+    transform: translateX(0);
+    /* Adjust the value based on the grid width and gap */
+  }
+  /* 75% {
+    transform: translateX(-10px);
+  } */
+}
+.grid h {
+  width: max-content;
+  height: 60px;
+  font-family: Red Hat Display;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e88e2e;
+}
+.grid p {
+  display: flex;
+  width: 299.95px;
+  height: 74.26px;
+  flex-direction: column;
+  align-items: center;
+  font-family: Red Hat Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#CCCCCC;
+}
